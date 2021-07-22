@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <style>
+         table {
+        width:800px; 
+        <!-- 
+        I wanted table to be same width as the Kismet picture,
+        however I did not want to use JS to figure out picture width then apply the width as this was a HTML project.
+        So I hardcoded the value 800px to my table style, hope that this is okay. :)
+        -->
+        }
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        th, td {
+        padding: 15px;
+        text-align: left;
+        }
+        #t01 tr:nth-child(even) {
+        background-color: #eee;
+        }
+        #t01 tr:nth-child(odd) {
+        background-color: #fff;
+        }
+        #t01 th {
+        background-color: black;
+        color: white;
+}
+    </style>
+        <title>CA 2, IT Fundamentals</title>
+    </head>
+    <body>
+        <h1>IT Fundamentals</h1>
+        <ul>
+            <li>Name: Thomas Lee Lewin</li>
+            <li>Student ID: 110197137</li>
+            <li>Preferred Email Address: <a href="mailto:Thomasleelewin1992@gmail.com">Thomasleelewin1992@gmail.com</a></li>
+            <li>Title of Program: Data Science - Bachelor of Mathematics</li>   
+        </ul>
+        <a href="https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kismet-IMG_6007-black.jpg/800px-Kismet-IMG_6007-black.jpg" alt="Kismet">
+        </a>
+        <p>
+        <a href="https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg">Link to above image</a>
+        </p>
+    </body>
+</html>
+<table id="t01">
+        <tr>
+          <th>Robot</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>1927</td>
+        </tr>
+        <tr>
+          <td>Kismet</td>
+          <td>1997</td>
+        </tr>
+        <tr>
+            <td>Pepper</td>
+            <td>2014</td>
+        </tr>
+      </table>
