@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <title>Australian Birds</title>
+
+        <script language="javascript">
+
+            function changeImage(picId)
+            {
+                pic = document.getElementById('Showpic');
+                pic.src = picId;
+
+            }
+
+            function change_text(textId){
+                document.getElementById("Showtext").innerHTML = textId;
+            }
+
+        </script>
+
+</head>
+<body>
+        
+    <h1>Australian Birds</h1>
+
+    <p>
+        <th><a href="#" onclick="changeImage('http://www.outgrabe.net/bird00.jpg'), change_text('Pardalote by fir0002 (CC-by-NC)');">Pardalote</a></th>
+        |
+        <th><a href="#" onclick="changeImage('http://www.outgrabe.net/bird01.jpg'), change_text('Purple swamp hen by Toby Hudson (CC-by-SA)');">Purple Swamp Hen</a></th>
+        |
+        <th><a href="#" onclick="changeImage('http://www.outgrabe.net/bird02.jpg'), change_text('White-headed Stilt by JJ Harrison (CC-by-SA)');">White-headed Stilt</a></th>
+        |
+        <th><a href="#" onclick="changeImage('http://www.outgrabe.net/bird03.jpg'), change_text('Inland Thornbill by Peter Jacobs (CC-by-SA)');">Inland Thornbill</a></th>
+        |
+        <th><a href="#" onclick="changeImage('http://www.outgrabe.net/bird04.jpg'), change_text('Rose Robin by JJ Harrison (CC-by-SA)');">Rose Robin</a></th>
+    </p>
+
+    <img id="Showpic" src='http://www.outgrabe.net/bird00.jpg' />
+
+    <p id="Showtext">Pardalote by fir0002 (CC-by-NC)</p>
+
+</body>
+
+</html>
+
+
